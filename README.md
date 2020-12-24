@@ -16,7 +16,7 @@
 
   > Finally turn on the app and check the logs (settings -> view logs) :)
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ananspskerala/antiservicebot/tree/master)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Anandpskerala/antiservicebot/tree/master)
 
 
 ## Video Tutorial
