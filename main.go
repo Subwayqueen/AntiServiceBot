@@ -48,7 +48,7 @@ func main() {
 func start(b *ext.Context) error {
 
 	_, err := b.Bot.SendMessage(b.EffectiveChat.Id, "Hi Buddy, I am <b>AntiServiceMessageBot</b>\n\nI am a bot which can delete service message like when a user <u>enters</u> or <u>exists</u> a group\n\nI am a fully written in <b>Go</b>\n\n<i>Note</i> :  You should promote me as an admin and give atleast two admins rights shown below for getting my full service:\n * Right to Deleted Messages\n * Right to add admins\n\n<b>Support Group</b> : <b><a href='https://t.me/Keralasbots'>KeralaBots</a></b>", &gotgbot.SendMessageOpts{ReplyToMessageId: b.EffectiveMessage.MessageId, ParseMode: "HTML"})
-        if err != nil {
+	if err != nil {
 		log.Printf("Error in sending", err.Error())
 	}
 	return err
